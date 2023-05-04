@@ -1,0 +1,118 @@
+.admin-page-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.admin-page-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.admin-page-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #e0dede;
+  padding: 20px;
+  height: calc(100vh - 40px); 
+  overflow: auto; 
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-input {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.admin-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.edit-button {
+  padding: 3px 7px;
+  border: none;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.admin-button:hover {
+  background-color: #2980b9;
+}
+
+.edit-button:hover {
+  background-color: #161616;
+  color: #fff;
+}
+
+.admin-button-container button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.admin-table-container {
+  max-height: 500px; 
+  overflow-y: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.admin-table td {
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: left;
+  max-width: 180px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.admin-table th, .admin-table td {
+  white-space: nowrap;
+}
+
+
+.admin-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,135 @@
+.user-page-container {
+  background-color: #bababa;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+body {
+  background-color: #e0dede;
+}
+
+.user-profile {
+  background-color: #d5d5d5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.user-profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.user-name {
+  margin-top: 20px;
+}
+
+.user-details {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.user-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.user-action-btn {
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.user-action-btn:hover {
+  background-color: #0052a3;
+}
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.popup-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popup-buttons button {
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.popup-buttons button:hover {
+  background-color: #0052a3;
+}
+
+.popup-buttons .yes-button:hover {
+  background-color: #cc0000;
+}
+
+.popup-buttons .no-button:hover {
+  background-color: #888888;
+}
+
+.user-action-btn {
+  text-decoration: none;
+}
+
+.logout-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
